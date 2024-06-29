@@ -1,6 +1,6 @@
 /* eslint-disabled */
 export default function getResponseFromAPI() {
-	return new Promise((reserve, reject) => {
-	
-	});
+  return new Promise((reserve, reject) => {
+
+  });
 }
