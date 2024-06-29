@@ -1,4 +1,4 @@
-import getFullResponseFromAPI from './0x01-ES6_promise/1-promise';
+import handleResponseFromAPI from "./0x01-ES6_promise/2-then";
 
-console.log(getFullResponseFromAPI(true));
-console.log(getFullResponseFromAPI(false));
+const promise = Promise.resolve();
+handleResponseFromAPI(promise);
