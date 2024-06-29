@@ -1,5 +1,4 @@
-import Airport from "./0x02-ES6_classes/7-airport.js";
+import getResponseFromAPI from "./0x01-ES6_promise/0-promise.js";
 
-const airportSF = new Airport('San Francisco Airport', 'SFO');
-console.log(airportSF);
-console.log(airportSF.toString());
+const response = getResponseFromAPI();
+console.log(response instanceof Promise);
