@@ -1,7 +1,5 @@
-import getListStudents from "./0x03-ES6_data_manipulation/0-get_list_students.js";
-import getStudentIdsSum from "./0x03-ES6_data_manipulation/3-get_ids_sum.js";
+import hasValuesFromArray from "./0x03-ES6_data_manipulation/7-has_array_values.js";
 
-const students = getListStudents();
-const value = getStudentIdsSum(students);
-
-console.log(value);
+console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1]));
+console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [10]));
+console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
