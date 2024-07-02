@@ -1,3 +1,3 @@
-import handleProfileSignup from './0x01-ES6_promise/6-final-user';
+import getListStudents from "./0x03-ES6_data_manipulation/0-get_list_students.js";
 
-console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
+console.log(getListStudents());
